@@ -3,8 +3,7 @@ import PoolTable from "../../components/PoolTable/PoolTable";
 const OfflineBoard = () => {
 	return (
 		<div>
-			<PoolTable  />
-			
+			<PoolTable width={520} height={280} />
 		</div>
 	);
 };

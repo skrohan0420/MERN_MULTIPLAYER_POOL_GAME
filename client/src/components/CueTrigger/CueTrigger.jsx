@@ -32,8 +32,8 @@ const CueTrigger = ({ cueBall, pointer, onShoot }) => {
                 className={`cue-stick ${pulling ? "pulling" : ""}`}
                 onMouseDown={handlePullStart}
                 onMouseUp={handleRelease}
-                onTouchStart={handlePullStart}
-                onTouchEnd={handleRelease}
+                // onTouchStart={handlePullStart}
+                // onTouchEnd={handleRelease}
             >
                 <div className="cue-stick-label">Tap & Pull</div>
             </div>

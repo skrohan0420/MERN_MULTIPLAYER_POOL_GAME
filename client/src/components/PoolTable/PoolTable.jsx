@@ -28,7 +28,7 @@ const PoolTable = ({ width = 520, height = 280 }) => {
 
         const update = () => {
             if (cueBallRef.current) {
-                cueBallRef.current.update();
+               cueBallRef.current.update(width, height);
                 cueBallRef.current.applyFriction();
                 if (cueBallRef.current.isMoving()) {
                     animationRef.current = requestAnimationFrame(update);
