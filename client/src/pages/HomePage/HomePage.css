@@ -1,0 +1,57 @@
+/* Full height and no scroll */
+.homepage-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #0f172a;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* prevent scrolling */
+}
+
+.header .title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.menu-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-grow: 1;
+    /* this pushes the buttons to fill the middle space */
+}
+
+.menu-btn {
+    background-color: #1e293b;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 160px;
+}
+
+.menu-btn:hover {
+    background-color: #334155;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+a{
+    color: #60a5fa;
+    text-decoration: none;
+}
